@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contato-barbearia alura</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+
+      <div class="caixa">
+    <h1> <img src="logo.jpg" alt="Logo Da Barbearia Alura"></h1>
+    <nav>
+        <ul>
+          <li> <a href="pagina.html"> Home </a></li>
+          <li> <a href="produtos.html"> Produtos </a></li>
+          <li> <a href="pagina2.html"> Contatos </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2> Contato </h2>
+  <form>
+    <label for="nomesobrenome"> nome e sobrenome </label>
+    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+    <label for="telefone">Telefone</label>
+    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+    <label for="mensagem">Mensagem</label>
+    <textarea cols="70" rows="10" id="mensagem" class="input-padrao"required> </textarea>
+
+<fieldset>
+  <legend>como prefere o nosso contato?</legend>
+  <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+  <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone</label>
+
+  <label for="radio-whatsApp"><input type="radio" name="contato" value="whatsApp" id="radio-whatsapp" checked>whatsApp</label>
+
+</fieldset>
+
+
+  </form>
+
+</main>
+
+  </body>
+</html>

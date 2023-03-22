@@ -1,0 +1,55 @@
+.principal{
+  background: #808080;
+}
+#barbearia{
+  width: 100%;
+}
+.titulo-principal{
+  text-align: center;
+  font-size:50px;
+  color:red;
+}
+
+  .titulo-dois{
+    color: #87CEFA;
+    text-align: center;
+  }
+ #missao{
+   font-size: 20px;
+   color: #87CEFA;
+   font-style: italic;
+ }
+ #missao2{
+   font-size: 20px;
+   color: #87CEFA;
+   font-style: italic;
+ }
+ #missao3{
+   font-size: 20px;
+   color: #87CEFA;
+   font-style: italic;
+ }
+.itens{
+  color: #87CEFA;
+  font-style: italic;
+  font-style: 50px;
+}
+.titulo3{
+  color: #87CEFA;
+
+}
+.beneficios{
+  background:  #F5DEB3;
+  width 20%
+}
+
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.beneficios2{
+  width: 200%
+}

@@ -1,0 +1,66 @@
+{
+	margin: 0;
+	padding: 0;
+}
+		body{
+			font-family: Arial,Helvetica,sans-serif;
+			font-size: 22px;
+
+		}
+		#menu{
+			height: 800px;
+			width: 900px;
+			background:linear-gradient(red ,yellow);
+			float: left;
+			margin-left: 10px;
+			margin-top: 10px;
+
+		}
+    #nome{
+	display: list-item;
+	vertical-align: top;
+}
+#sobrenome{
+	display: list-item;
+	vertical-align: top;
+}
+#email{
+	display: list-item;
+	vertical-align: top;
+}
+#telefone{
+	display: list-item;
+	vertical-align: top;
+}
+#mensagem{
+	display: list-item;
+	vertical-align: top;
+}
+		#principal{
+			height: 800px;
+			width: 900px;
+			background:linear-gradient(green, darkred);
+			float: left;
+			margin-top: 10px;
+			margin-left: 10px;
+
+		}
+.enviar{
+
+  margin-top: 600px;
+	width: 400px;
+	padding: 15px 0;
+	background: linear-gradient(pink,darkgrey);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+
+}
+.enviar:hover {
+	background: linear-gradient(lightgreen,darkgreen);
+	transform: scale(1.2);
+}
